@@ -88,13 +88,17 @@ a:hover {
 .project {
   text-align: center;
   width: 30%;
-  display: inline-block;
-  margin: 1%;
+  display: inline-block;;
+  margin: 2.5% 1% 0;
 }
 
 .project img {
   width: 100%;
   height: auto;
+}
+
+.project p {
+  padding-bottom: 1%;
 }
 
 
@@ -141,9 +145,7 @@ footer ul li {
 .secondary-nav li {
   padding: 5px 10px 10px 10px;
 }
-.secondary-nav a {
-  transition: all .5s;
-}
+
 .secondary-nav a:hover {
   text-decoration: underline;
 }
