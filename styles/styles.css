@@ -27,7 +27,6 @@ a:hover {
   width: 100%;
   min-height: 30px;
   padding: 10px;
-  position: fixed;
   text-align: center;
 }
 .nav {
@@ -52,4 +51,26 @@ a:hover {
 }
 .nav a:hover {
   text-decoration: underline;
+}
+
+.intro {
+  width: 100%;
+}
+
+.intro-content {
+  width: 60%;
+  text-align: left;
+  padding: 2%;
+  float: left;
+}
+
+.headshot {
+  width: 40%;
+  padding: 2%;
+  float: right;
+}
+
+.headshot img {
+  width: 100%;
+  height: auto;
 }
