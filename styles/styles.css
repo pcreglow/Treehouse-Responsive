@@ -9,22 +9,22 @@ body {
   text-align: center;
   font-family: Calibri, sans-serif;
   color: #000;
-  background: #fff;
+  background: #f2f2f2;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
+  color: #000;
 }
 a:hover {
-
+  text-decoration: underline;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: #fff;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -51,5 +51,5 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: blue;
+  text-decoration: underline;
 }
