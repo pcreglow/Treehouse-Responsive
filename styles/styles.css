@@ -201,5 +201,33 @@ footer li {
 /* Desktop Media Query */
 
 @media screen and (min-width: 1024px) {
-  
+  .nav {
+    display: flex;
+  }
+  .nav .name {
+    display: block;
+    margin-right: auto;
+  }
+  .nav li {
+    background-color: #fafafa;
+    padding: 1% 0 1% 1%;
+    margin: 0 1%;
+    width: auto;
+  }
+  .intro {
+    display: inline-block;
+    width: 100%;
+  }
+  .headshot {
+    width: 40%;
+    float: right;
+    padding: 1% 2.5% 4%;
+  }
+  .intro-content {
+    width: 60%;
+    float: left;
+    padding: 1% 2.5% 1% 3.5%;
+    text-align: left;
+    font-size: 18px;
+  }
 }
