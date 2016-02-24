@@ -98,7 +98,7 @@ a:hover {
 .contact {
   background: #fafafa;
   margin: 0;
-  padding: 0 5%;
+  padding: 0 2.5%;
 }
 .contact h3 {
   text-align: center;
@@ -143,10 +143,13 @@ footer li {
   color: #000;
 }
 .secondary-nav li {
-  padding: 2% 5%;
+  padding: 2% 2.5% 4%;
 }
 .secondary-nav a:hover {
   text-decoration: underline;
+}
+.bottom-nav {
+  display: none;
 }
 .clearfix {
   clear: both;
@@ -183,5 +186,11 @@ footer li {
     display: inline-block;
     margin: 0 auto;
     padding: 1%;
+  }
+  .top {
+    display: none;
+  }
+  .bottom-nav {
+    display: inline-block;
   }
 }
