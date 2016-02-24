@@ -154,8 +154,16 @@ footer li {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
-.nav li {
-  background-color: red;
+.nav .name {
+  width: 100%;
+  margin: 0 auto;
+}
+  .nav li {
+  background-color: #fafafa;
+  width: 10%;
+  display: inline-block;
+  padding: 1%;
+  margin: 0 auto;
 }
 
 }
