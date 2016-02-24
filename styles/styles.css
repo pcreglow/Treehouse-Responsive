@@ -67,13 +67,14 @@ a:hover {
 
 .intro-content {
   width: 100%;
-  text-align: left;
-  padding: 2%;
+  padding: 1% 5%;
+  font-size: 14px;
 }
 
 .headshot {
   width: 100%;
-  padding: 2%;
+  height: auto;
+  padding: 2% 15%;
 }
 
 .headshot img {
@@ -86,12 +87,13 @@ a:hover {
 }
 .portfolio h3 {
   text-align: center;
+  font-size: 20px;
 }
 
 .project {
   text-align: center;
   width: 100%;
-  padding: 2%;
+  padding: 2% 5%;
   display: block;
 }
 
@@ -101,7 +103,7 @@ a:hover {
 }
 
 .project p {
-  padding-bottom: 1%;
+  font-size: 14px;
 }
 
 
