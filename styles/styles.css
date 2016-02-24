@@ -190,6 +190,9 @@ footer li {
     margin: 0 auto;
     padding: 1%;
   }
+  .contact p {
+    padding-bottom: 2%;
+  }
   .top {
     display: none;
   }
@@ -207,12 +210,14 @@ footer li {
   .nav .name {
     display: block;
     margin-right: auto;
+    font-size: 24px;
   }
   .nav li {
     background-color: #fafafa;
     padding: 1% 0 1% 1%;
     margin: 0 1%;
     width: auto;
+    font-size: 20px;
   }
   .intro {
     display: inline-block;
@@ -229,5 +234,36 @@ footer li {
     padding: 1% 2.5% 1% 3.5%;
     text-align: left;
     font-size: 18px;
+  }
+  .project {
+    width: 31%;
+    display: inline-block;
+    margin: 1% auto;
+    padding: 1%;
+    height: auto;
+    min-height: 300px;
+  }
+  .portfolio h3,
+  .contact h3 {
+    font-size: 22px;
+  }
+  .project h4 {
+    font-size: 20px;
+  }
+  .project p,
+  .contact p {
+    font-size: 18px;
+  }
+  .contact p {
+    padding-bottom: 2%;
+  }
+  .top {
+    display: none;
+  }
+  .bottom-nav {
+    display: inline-block;
+  }
+  footer .footer-nav {
+    font-size: 16px;
   }
 }
