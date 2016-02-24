@@ -154,6 +154,9 @@ footer li {
 .clearfix {
   clear: both;
 }
+
+/* Tablet Media Query */
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .nav .name {
     width: 100%;
@@ -193,4 +196,10 @@ footer li {
   .bottom-nav {
     display: inline-block;
   }
+}
+
+/* Desktop Media Query */
+
+@media screen and (min-width: 1024px) {
+  
 }
