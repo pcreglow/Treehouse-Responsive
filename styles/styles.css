@@ -175,4 +175,13 @@ footer li {
     float: left;
     padding: 1% 5%;
   }
+  .portfolio h3 {
+    padding: 1% 0;
+  }
+  .project {
+    width: 48%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 1%;
+  }
 }
