@@ -243,15 +243,13 @@ footer li {
     height: auto;
     min-height: 300px;
   }
-  .portfolio h3,
-  .contact h3 {
+  .portfolio h3, .contact h3 {
     font-size: 22px;
   }
   .project h4 {
     font-size: 20px;
   }
-  .project p,
-  .contact p {
+  .project p, .contact p {
     font-size: 18px;
   }
   .contact p {
