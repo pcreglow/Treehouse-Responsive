@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: Calibri, sans-serif;
   color: #000;
-  background: #f2f2f2;
+  background: #fff;
 }
 /* Link Styles */
 
@@ -26,8 +26,9 @@ a:hover {
 .main-nav {
   width: 100%;
   min-height: 30px;
-  padding: 10px;
+  padding: 2%;
   text-align: center;
+  background-color: #f2f2f2;
 }
 
 .nav {
@@ -45,7 +46,7 @@ a:hover {
     width: 100%;
 }
 .nav li {
-  padding: 5px 10px 10px 10px;
+  padding: 1%;
 }
 .nav a {
   transition: all .5s;
@@ -56,19 +57,18 @@ a:hover {
 
 .intro {
   display: block;
+  background-color: #f2f2f2;
 }
 
 .intro-content {
   width: 100%;
   text-align: left;
   padding: 2%;
-  float: right;
 }
 
 .headshot {
   width: 100%;
   padding: 2%;
-  float: left;
 }
 
 .headshot img {
@@ -78,7 +78,6 @@ a:hover {
 
 .portfolio {
   background: #fff;
-  margin: 2%;
 }
 .portfolio h3 {
   text-align: center;
@@ -86,9 +85,9 @@ a:hover {
 
 .project {
   text-align: center;
-  width: 30%;
-  display: inline-block;;
-  margin: 2.5% 1% 0;
+  width: 100%;
+  padding: 2%;
+  display: block;
 }
 
 .project img {
