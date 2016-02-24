@@ -151,19 +151,28 @@ footer li {
 .clearfix {
   clear: both;
 }
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
-.nav .name {
-  width: 100%;
-  margin: 0 auto;
-}
+  .nav .name {
+    width: 100%;
+    margin: 0 auto;
+  }
   .nav li {
-  background-color: #fafafa;
-  width: 10%;
-  display: inline-block;
-  padding: 1%;
-  margin: 0 auto;
-}
-
+    background-color: #fafafa;
+    width: 10%;
+    display: inline-block;
+    padding: 1%;
+  }
+  .intro {
+    display: inline-block;
+  }
+  .headshot {
+    width: 40%;
+    float: right;
+    padding: 1% 2.5% 4%;
+  }
+  .intro-content {
+    width: 60%;
+    float: left;
+    padding: 1% 5%;
+  }
 }
