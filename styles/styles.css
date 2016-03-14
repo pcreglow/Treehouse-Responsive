@@ -236,18 +236,15 @@ footer li {
     font-size: 18px;
   }
   .project {
-    width: 31%;
-    display: inline-block;
-    margin: 1% auto;
-    padding: 1%;
-    height: auto;
-    min-height: 300px;
+    width: 32%;
+    vertical-align: top;
+    min-height: 350px;
   }
   .portfolio h3, .contact h3 {
-    font-size: 22px;
+    font-size: 24px;
   }
   .project h4 {
-    font-size: 20px;
+    font-size: 22px;
   }
   .project p, .contact p {
     font-size: 18px;
